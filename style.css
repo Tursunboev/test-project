@@ -1,0 +1,38 @@
+/* FONT FACE */
+@font-face {
+    font-family: "Avengeance Heroic";
+    font-display: swap;
+    font-weight: 700;
+    src: url("./fonts/AvengeanceHeroicAvengerBold.woff") format("woff"), url("./fonts/AvengeanceHeroicAvengerBold.woff2") format("woff2"); 
+}
+
+@font-face {
+    font-family: "Avengeance Heroic";
+    font-display: swap;
+    font-weight: 400;
+    src: url("./fonts/AvengeanceHeroicAvengerNormal.woff") format("woff"), url("./fonts/AvengeanceHeroicAvengerNormal.woff2") format("woff2");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    object-fit: cover;
+}
+h1 {
+    font-family: "Avengeance Heroic";
+}
+
+/* 5ta oila bor fontlarga oid*/
+/* serif -chetlari bo'rtib chiqqan bo'ladi*/
+/* sens-serif - chetlari tekkis ortiqcha bezak bo'lmaydi*/
+/* fantasy- Multfilmlarni yozuvlari*/
+/* cursive -qo'l yozmalar*/
+/* monospace -eni barchasi bir xil bo'ladi*/
